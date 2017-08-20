@@ -33,5 +33,5 @@
 #ifdef H
 #define S(...)
 #else
-#define S(...)static __VA_ARGS__
+#define S(...)static __VA_ARGS__;
 #endif
