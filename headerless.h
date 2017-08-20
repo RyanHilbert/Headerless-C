@@ -6,6 +6,7 @@
 #include F
 #undef H
 #endif
+#undef F
 #endif
 
 #undef B
