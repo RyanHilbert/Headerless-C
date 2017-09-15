@@ -1,5 +1,5 @@
 # Macros
-The headerless.h file defines several macros that allow .c sources to be included directly, removing the need for accompanying header files!
+The headerless.h file defines several macros that allow .c sources to be included directly, removing the need for accompanying header files.
 ## H
 The H macro (header) affects most other macros in headerless.h. H enables "header mode" when defined, causing most other macros to expand more conservatively. This should be defined before #include-ing a "headerless" .c file.
 
